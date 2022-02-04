@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <title>Validations</title>
+    <style>
+        p {
+            margin-top: 22px;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            border-radius: 5px;
+            margin: 10px 0px;
+            width: 75%;
+            padding: 12px 0px;
+        }
+
+        p.valid {
+
+            color: rgb(29, 199, 29);
+            ;
+        }
+
+        p.invalid {
+
+            color: rgb(224, 36, 36);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section class="form">
+        <div class="container my-4 mx-5">
+            <div class="row">
+                <div class="col-lg-5 ">
+                    <img src="https://images.pexels.com/photos/4034477/pexels-photo-4034477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="" class="img-fluid no-gutters">
+                </div>
+                <div class="col-lg-7 area">
+                    <h1>Sign-Up</h1>
+                    <form action="#" id="form">
+
+                        <div class="row">
+                            <div class="col-lg-7 text-center">
+                                <input type="text" class="form-control my-3" id="ufname" name="fname"
+                                    placeholder="Enter First Name">
+                            </div>
+                            <div class="col-lg-5">
+                                <p id="fn"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 text-center">
+                                <input type="text" class="form-control my-3" id="ulname" name="lname"
+                                    placeholder="Enter Last Name">
+                            </div>
+                            <div class="col-lg-5">
+                                <p id="ln"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 text-center">
+                                <input type="text" class="form-control my-3" id="uemail" name="email"
+                                    placeholder="Enter Email">
+                            </div>
+                            <div class="col-lg-5">
+                                <p id="em"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 text-center">
+                                <input type="text" id="num" class="form-control my-3" name="number"
+                                    placeholder="Enter Mobile number" name="pwd">
+                            </div>
+                            <div class="col-lg-5">
+                                <p id="nm"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 text-center">
+                                <input type="password" id="upwd" class="form-control my-3" name="password"
+                                    placeholder="Enter password" name="pwd">
+                            </div>
+                            <div class="col-lg-5">
+                                <p id="pwdoutput"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 text-center">
+                                <input type="password" id="ucpwd" class="form-control my-3" placeholder="Enter password"
+                                    name="pwd">
+                            </div>
+                            <div class="col-lg-5">
+                                <p id="cpwdoutput"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="submit" class="btn btn-primary btn1 mb-5" id="submit" value="submit"
+                                    name="submit" disabled>Register</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+    <script src="js.js"></script>
+</body>
+
+
+
+</html>

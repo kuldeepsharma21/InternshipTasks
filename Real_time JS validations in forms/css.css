@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+/* .row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px gray;
+
+} */
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 90%;
+    width: 100%;
+}
+.btn:hover{
+    background: rgb(19, 187, 238);
+    border: 1px solid;
+}
